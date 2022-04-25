@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九九乘法表</title>
+    <!-- CSS -->
+    <style>
+       
+        td {
+            border: 1px solid;
+        }
+    </style>
+    <!-- JavaScript -->
+    <script>
+        document.write("<table align='center'>");
+        for (let i = 1; i <= 9; i++) {
+            document.write("<tr>");
+            for (let j = 1; j <= i ; j++) {
+                document.write("<td>");
+                document.write(i + " * " + j + " = " + (i * j) );
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+ 
+</head>
+<body>
+ 
+</body>
+</html>
